@@ -35,13 +35,16 @@ Booking.init({
     type: DataTypes.INTEGER,
   },
   active: {
-    type: DataTypes.BOOL,
-  },
+    type: DataTypes.BOOLEAN,
+  }
+},
+  {
   sequelize,
   timestamps: false,
   freezeTableName: true,
   underscored: true,
   modelName: "booking",
-});
+}
+);
 
 module.exports = Booking;

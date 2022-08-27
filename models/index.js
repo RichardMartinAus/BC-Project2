@@ -1,20 +1,12 @@
 // CREATE RELATIONSHIPS BETWEEN MODELS AND EXPORT MODULES
 const User = require("./User");
-const OrderType = require("./OorderType");
+const OrderType = require("./OrderType");
 const Order = require("./Order");
 const products = require("./products");
 const Booking = require("./Booking");
 const OrderProduct = require("./OrderProduct");
 
-// .hasOne(User, { foreignKey: 'driver_id',
-//             // When we delete a Driver, make sure to also delete the associated License.
-//             onDelete: 'CASCADE',
-//           });
 
-//           // We can also define the association starting with License
-//           License.belongsTo(Driver, {
-//             foreignKey: 'driver_id',
-//           });
 
 //relation ship between booking and user
 User.hasMany(Booking, { foreignKey: "Userid" });

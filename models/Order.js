@@ -16,8 +16,7 @@ Order.init(
     orderDate: {
       type: DataTypes.DATE,
       allowNull: false,
-      autoIncrement: true,
-    },
+         },
     OrderTypeid: {
       type: DataTypes.INTEGER,
       references: {
