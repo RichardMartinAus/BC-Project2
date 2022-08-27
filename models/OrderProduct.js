@@ -39,4 +39,4 @@ OrderProduct.init(
   }
 );
 
-module.exports = OrderProduct
+module.exports = OrderProduct;
