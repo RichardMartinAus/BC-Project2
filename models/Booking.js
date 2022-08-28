@@ -48,3 +48,4 @@ Booking.init({
 );
 
 module.exports = Booking;
+
