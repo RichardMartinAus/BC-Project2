@@ -1,3 +1,3 @@
--- CREATE DB FOR RESTAURANT
--- DROP DATABASE IF EXISTS crowdfund_db;
--- CREATE DATABASE crowdfund_db;
+-- CREATING a database for seaside Cafe
+DROP DATABASE IF EXISTS cafe_db;
+CREATE DATABASE cafe_db;
