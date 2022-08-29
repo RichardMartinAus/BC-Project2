@@ -64,5 +64,5 @@ User.init(
 module.exports = User;
 
 
-=======
+
 // USER/CUSTOMER MODEL
