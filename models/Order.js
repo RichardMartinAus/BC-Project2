@@ -20,7 +20,7 @@ Order.init(
     OrderTypeid: {
       type: DataTypes.INTEGER,
       references: {
-        model: "OrderType",
+        model: "orderType",
         key: "id",
       },
     },
@@ -40,7 +40,7 @@ Order.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "order",
+    modelName: "Orders",
   }
 );
 
