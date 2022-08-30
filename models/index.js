@@ -1,6 +1,6 @@
 // CREATE RELATIONSHIPS BETWEEN MODELS AND EXPORT MODULES
 const User = require("./User");
-const Products = require("./products");
+const Products = require("./Products");
 const Booking = require("./Booking");
 
 //relation ship between booking and user
