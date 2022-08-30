@@ -1,1 +1,20 @@
-// USER SEED DATA
+[
+  {
+    "name": "Sal",
+    "email": "sal@hotmail.com",
+    "password": "password1234",
+    "contactNo": 451111111
+  },
+  {
+    "name": "Lernantino",
+    "email": "lernantino@gmail.com",
+    "password": "coolPw2020",
+    "contactNo": 451111112
+  },
+  {
+    "name": "Amiko",
+    "email": "amiko2k20@aol.com",
+    "password": "amiko2k20!",
+    "contactNo": 451111113
+  }
+]
