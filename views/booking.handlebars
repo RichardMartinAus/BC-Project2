@@ -1,1 +1,50 @@
-{{!-- BOOKINGS PAGE --}}
+<header class=" hero hero-header">
+        <nav class="navbar">
+            <a href="#">
+                <h1>SEASIDE CAFE</h1>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">MENU</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">CONTACT</a></li>
+                <!-- login button -->
+                <li class="nav-item"><a href="#" class="nav-link">LOGIN</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="content-display">
+            <div class="content-container">
+                <h2 class="heading">Booking</h2>
+                <form>
+                    <div class="booking-container">
+                        <h5>Select a date:</h5>
+                        <input type="date" id="date-dropdown">
+                    </div>
+                    <div class="booking-container">
+                        <h5>Select a time:</h5>
+                        <div class="time-slots">
+                            <div class="slot-option">12:00 - 13:30</div>
+                            <div class="slot-option">14:00 - 15:30</div>
+                        </div>
+                        <div class="time-slots">
+                            <div class="slot-option">18:00 - 19:30</div>
+                            <div class="slot-option">20:00 - 21:30</div>
+                        </div>
+                        <p class="booking-note">Please note that seatings are limited to 1.5 hours per booking</p>
+                    </div>
+                    <div class="booking-container">
+                        <h5>How many guests:</h5>
+                        <input type="number" id="guest-number" min="1" max="8">
+                        <p class="booking-note">Please note that the maximum seating is 8</p>
+                    </div>
+                    <button class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </main>
