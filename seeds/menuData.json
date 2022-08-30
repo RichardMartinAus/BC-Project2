@@ -1,86 +1,100 @@
 [
   {
     "item": "Coffee",
+    "category": "beverage",
     "isVeg": true,
-    "desc": "Soya, Almond, Oats,lactose free w/ Full cream or low fat milk",
+    "desc": "Soya, Almond, Oats, lactose free w/ Full cream or low fat milk",
     "price": 4.8
   },
   {
-    "item" : "tea",
-    "isVeg" :true,
-    "desc" : "Soya, Almond, Oats,lactose free w/ Full cream or low fat milk",
-    "price" : 4.0
+    "item" : "Tea",
+    "category": "beverage",
+    "isVeg": true,
+    "desc": "Soya, Almond, Oats, lactose free w/ Full cream or low fat milk",
+    "price": 4.0
  },
   {
-    "item" : "Hot chocolate",
-    "isVeg" :true,
-    "desc" : "Soya, Almond, Oats,lactose free w/ Full cream or low fat milk",
-    "price" : 4.5
+    "item": "Hot chocolate",
+    "category": "beverage",
+    "isVeg": true,
+    "desc": "Soya, Almond, Oats, lactose free w/ Full cream or low fat milk",
+    "price": 4.5
   },
   {
-    "item" : "Iced Long black",
-    "isVeg" :true,
-    "desc" : "in Hazelnot, Vanilla, Caramel, Chocolate w/Full cream or low fat milk",
-    "price" : 4.5
+    "item": "Iced Long black",
+    "category": "beverage",
+    "isVeg": true,
+    "desc": "with Hazelnut, Vanilla, Caramel, Chocolate w/Full cream or low fat milk",
+    "price": 4.5
   },
   {
-    "item" : "Flavoured Milkshake",
-    "isVeg" :true,
-    "desc" : "Mocha, Vanilla, strawberry, Chocolate",
-    "price" : 4.5
+    "item": "Flavoured Milkshake",
+    "category": "beverage",
+    "isVeg": true,
+    "desc": "Mocha, Vanilla, strawberry, Chocolate",
+    "price": 4.5
   },
   {
-    "item" : "Eggs on Toast",
-    "isVeg" :false,
-    "desc" : "Two eggs your way, tomato relish,rocket, balsamic glaze, ciabatta",
-    "price" : 12.9
+    "item": "Eggs on Toast",
+    "category": "mains",
+    "isVeg":false,
+    "desc": "Two eggs your way, tomato relish,rocket, balsamic glaze, ciabatta",
+    "price": 12.9
   },
   {
-    "item" : "Bacon & Egg flat grill",
-    "isVeg" :false,
-    "desc" : "Toasted tortilla, cheese, tomato relish",
-    "Price" : 13.50
+    "item": "Bacon & Egg flat grill",
+    "category": "mains",
+    "isVeg": false,
+    "desc": "Toasted tortilla, cheese, tomato relish",
+    "Price": 13.50
   },
   {
-    "item" : "Brekkie Burger",
-    "isVeg" :false,
-    "desc" : "Bacon, egg, hash brown, BBQ sauce",
-    "price" : 13.90
+    "item": "Brekkie Burger",
+    "category": "mains",
+    "isVeg":false,
+    "desc": "Bacon, egg, hash brown, BBQ sauce",
+    "price": 13.90
   },
   {
-    "item" : "Eggs Benee",
-    "isVeg" :false,
-    "desc" : "Poached eggs, hollandaise, ciabatta e",
-    "price" : 19.90
+    "item": "Eggs Benee",
+    "category": "mains",
+    "isVeg": false,
+    "desc": "Poached eggs, hollandaise, ciabatta",
+    "price": 19.90
   },
   {
-    "item" : "The Veg Breakfast",
-    "isVeg" :true,
-    "desc" : "fresh avo,cherry tomatoes, spinach, mushrooms, baked beans,",
-    "price" : 23.50
+    "item": "The Veg Breakfast",
+    "category": "mains",
+    "isVeg": true,
+    "desc": "Fresh avo, cherry tomatoes, spinach, mushrooms, baked beans.",
+    "price": 23.50
   },
   {
-    "item" : "Fish & Chips",
-    "isVeg" :false,
-    "desc" : "fish serverd with a bowl of chips and salad",
-    "price" : 15.60
+    "item": "Fish & Chips",
+    "category": "mains",
+    "isVeg": false,
+    "desc": "Fish serverd with a bowl of chips and salad",
+    "price": 15.60
   },
   {
-    "item" : "seasoned chips",
-    "isVeg" :true,
-    "desc" : "fresh crispy chips with chicken salt",
-    "price" : 6.50
+    "item": "Seasoned chips",
+    "category": "sides",
+    "isVeg": true,
+    "desc": "Fresh crispy chips with chicken salt",
+    "price": 6.50
   },
   {
-    "item" : "sweeet Potato wedges",
-    "isVeg" :true,
-    "desc" : "tasty sweet wedges",
-    "price" : 6.00
+    "item": "Sweeet Potato wedges",
+    "category": "sides",
+    "isVeg": true,
+    "desc": "Tasty sweet wedges",
+    "price": 6.00
   },
   {
-    "item" : "Green Salad",
-    "isVeg" :true,
-    "desc" : "fresh farm picked green- steamed/boiled with chickpea, cheese",
-    "price" : 10.10
+    "item": "Green Salad",
+    "category": "sides",
+    "isVeg": true,
+    "desc": "Fresh farm picked greens with chickpea & cheese",
+    "price": 10.10
   }
 ]
