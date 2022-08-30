@@ -3,18 +3,32 @@
         <div class="form">
             <h3>Sign up</h3>
             <div class="form-el">
+                <label for="password">First Name:</label>
+                <input type="text" id="first-name" placeholder="First Name">
+            </div>
+            <div class="form-el">
+                <label for="password">Last Name:</label>
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="form-el">
                 <label for="email">Email:</label>
-                <input type="text" id="email" placeholder="Enter email">
+                <input type="text" id="email" placeholder="Email">
             </div>
             <div class="form-el">
                 <label for="password">Password:</label>
-                <input type="text" id="password" placeholder="Enter password">
+                <input type="password" id="password" placeholder="Password">
             </div>
             <div class="form-el">
-                <a class="signup-link">Sign up</a>
+                <label for="password">Contact Number:</label>
+                <input type="text" id="contact-number" placeholder="Contact">
             </div>
             <div class="form-el">
-                <button class="submit-btn">SUBMIT</button>
+                <a href='/login' class="signup-link">Log In</a>
+            </div>
+            <div class="form-el">
+                <button class="submit-btn" id="signup-submit">SUBMIT</button>
             </div>
         </div>
     </div>
+
+<script src="./js/signup.js"></script>
