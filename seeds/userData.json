@@ -1,1 +1,23 @@
-// USER SEED DATA
+[
+  {
+    "f_name": "Sal",
+    "l_name": "Smith",
+    "email": "sal@hotmail.com",
+    "password": "password1234",
+    "contactNo": 451111111
+  },
+  {
+    "f_name": "Lernantino",
+    "l_name": "Romirez",
+    "email": "lernantino@gmail.com",
+    "password": "coolPw2020",
+    "contactNo": 451111112
+  },
+  {
+    "f_name": "Amiko",
+    "l_name": "Lee",
+    "email": "amiko2k20@aol.com",
+    "password": "amiko2k20!",
+    "contactNo": 451111113
+  }
+]

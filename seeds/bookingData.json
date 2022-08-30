@@ -1,1 +1,23 @@
-// BOOKING SEED DATA
+[
+    {
+        "bookedForDate": "05-09-2022",
+        "time": 14,
+        "Userid": 1,
+        "guestsNo": 4,
+        "active": true
+    },
+    {
+        "bookedForDate": "05-09-2022",
+        "time": 14,
+        "Userid": 2,
+        "guestsNo": 2,
+        "active": true
+    },
+    {
+        "bookedForDate": "05-09-2022",
+        "time": 14,
+        "Userid": 3,
+        "guestsNo": 8,
+        "active": true
+    }
+]

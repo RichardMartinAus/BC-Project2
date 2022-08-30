@@ -1,29 +1,31 @@
 // JS TO SEED THE DATABASE
 
-//const seedCategories = require('./category-seeds');
-const seedProducts = require('./products-seeds');
-const seedUser = require('./User-seeds');
-//const seedProductTags = require('./product-tag-seeds');
+const sequelize = require("../config/connection");
+const { User, Booking, Products } = require("../models");
 
-const sequelize = require('../config/connection');
+const userData = require("./userData.json");
+const bookingData = require("./bookingData.json");
+const productData = require("./menuData.json");
 
-const seedAll = async  () => {
-  
- await sequelize.sync({ force: true });
-  console.log('\n----- DATABASE SYNCED -----\n');
-  //await seedCategories();
-  //console.log('\n----- CATEGORIES SEEDED -----\n');
+const seedDatabase = async () => {
+  await sequelize.sync({ force: true });
 
-  await seedProducts();
-  console.log('\n----- PRODUCTS SEEDED -----\n');
+  const users = await User.bulkCreate(userData, {
+    individualHooks: true,
+    returning: true,
+  });
 
-  await seedUser();
-  console.log('\n----- TAGS SEEDED -----\n');
+  const bookings = await Booking.bulkCreate(bookingData, {
+    individualHooks: true,
+    returning: true,
+  });
 
-  //await seedProductTags();
-  //console.log('\n----- PRODUCT TAGS SEEDED -----\n');
+  const menu = await Products.bulkCreate(productData, {
+    individualHooks: true,
+    returning: true,
+  });
 
   process.exit(0);
 };
 
-seedAll();
+seedDatabase();
