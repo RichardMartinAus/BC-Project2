@@ -1,10 +1,10 @@
-<header class=" hero hero-header">
+<header class="hero hero-header">
     <nav class="navbar">
         <a href="#">
             <h1>SEASIDE CAFE</h1>
         </a>
         <ul class="nav-menu">
-            <li class="nav-item"><a href="#" class="nav-link">MENU</a></li>
+            <li class="nav-item"><a href="/menu" class="nav-link">MENU</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
             <li class="nav-item"><a href="#contacts" class="nav-link">CONTACT</a></li>
             <!-- login button -->
@@ -19,23 +19,43 @@
 </header>
 <main>
     <div class="content-display">
-        <div class="content-container">
-            <h2 class="heading">Seasonal Menu</h2>
-            <div class="menu-items">
-                <p>Fish and Chips</p>
-                <p>$20</p>
-            </div>
-            <div class="menu-items">
-                <p>Oysters Kilpatrick</p>
-                <p>ea. $4</p>
-            </div>
-            <div class="menu-items">
-                <p>Lobster Slyder</p>
-                <p>$15</p>
-            </div>
-            <div class="align-center">
-                <button class="book-btn">BOOK HERE</button>
-            </div>
+        <div class="content-container card-header col-md-12 text-center">
+            <h2 class="heading">&#127869 Seasonal Menu</h2>
+            <ul>
+
+                {{#each items as |item|}}
+                <li>
+                    
+                        <div class="">
+                            <div class="row">
+                                <div class="item-name col-4">
+                                    {{item.item}} <span class="food col-4">{{#if isVeg}}
+                                &#9419;
+                                {{/if}}</span>
+                                </div>
+                                    <span class="food col-4"></span>
+                               
+
+                                <div class="item-price col-2">
+                                    ${{item.price}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="item-desc col-12">
+                                    {{item.desc}}
+                            </div>
+                        </div>
+                    
+
+
+                </li>
+                {{/each}}
+            </ul>
         </div>
+        <div class="align-center col-8">
+            <button class="book-btn">BOOK HERE</button>
+        </div>
+    </div>
     </div>
 </main>
