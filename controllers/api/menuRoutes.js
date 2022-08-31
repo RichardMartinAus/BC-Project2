@@ -4,12 +4,14 @@ const Products = require('../../models/Products');
 
 // route to get all productses
 router.get('/', async (req, res) => {
+    console.log('int');
   const product = await Products.findAll().catch((err) => { 
       res.json(err);
     });
-    res.send(product);
-      // const items = product.map((item) => item.get({ plain: true }));
-      // res.send('all', { items });
+ 
+   const items = product.map((item) => item.get({ plain: true }));
+   
+     res.render('menu', {items});
     });
 
 // route to get one products
