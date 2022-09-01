@@ -8,10 +8,13 @@ router.get('/', async (req, res) => {
   const product = await Products.findAll().catch((err) => { 
       res.json(err);
     });
- 
-   const items = product.map((item) => item.get({ plain: true }));
+    
+    if (product) {
+        const items = product.map((item) => item.get({ plain: true }));
+        res.render('menu', {items: items});
+    }
    
-     res.render('menu', {items});
+     
     });
 
 // route to get one products
