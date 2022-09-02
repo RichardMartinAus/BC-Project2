@@ -250,6 +250,11 @@ footer {
 }
 
 /* modals */
+.modal-container {
+    height: 100%;
+    width: 100%;
+}
+
 .modal {
     position: absolute;
     top: 50%;
@@ -324,9 +329,10 @@ footer {
 
 /* menu */
 .content-display {
+    display:flex;
     align-items: center;
     justify-content: center;
-    height: 1300px;
+    height: 100%;
     width: 100%;
     background-color: rgb(244, 244, 234);
 }
@@ -337,7 +343,7 @@ footer {
     border: 1px solid black;
     padding: 2rem;
     margin: 2rem;
-    width: fit-content;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
