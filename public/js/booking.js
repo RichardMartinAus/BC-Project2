@@ -1,5 +1,4 @@
 const bookingForm = async () => {
-  debugger
   const response = await fetch("/api/booking", {
     method: "POST",
     headers: { "Content-Type": "application/json" },

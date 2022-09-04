@@ -5,17 +5,17 @@ const withAuth = require("../../utils/auth");
 
 // POST route to make a booking
 
-
-
 // if user is auth then render booking else rediret to login page
-
 
 // router.post("/", withAuth, async (req, res) => {
 //   console.log("with auth")
 //   try {
 //     const newBooking = await Booking.create({
 //       ...req.body,
-//       user_id: req.session.user_id,
+//       Userid = req.session.user_id,
+//       bookedForDate = dateBooked,
+//       time = selectedTime,
+//       guestsNo = guests,
 //     });
 
 //     res.status(200).json(newBooking);
@@ -35,9 +35,8 @@ const withAuth = require("../../utils/auth");
 //   }
 // });
 
-
 router.get("/", async (req, res) => {
-  console.log("booking")
+  console.log("booking");
   try {
     res.render("booking");
   } catch (err) {
@@ -45,15 +44,13 @@ router.get("/", async (req, res) => {
   }
 });
 
-
-router.get("/", withAuth,  async (req, res) => {
+router.get("/", withAuth, async (req, res) => {
   try {
-    console.log("booking with auth")
+    console.log("booking with auth");
     res.render("booking");
   } catch (err) {
     res.status(500).json(err);
   }
 });
-
 
 module.exports = router;
