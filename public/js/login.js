@@ -18,7 +18,13 @@ const loginFormHandler = async (event) => {
       // If successful, redirect the browser to the profile page
       document.location.replace('/userdash');
     } else {
-      alert(response.statusText);
+      if (response.status === 400) {
+        alert('Incorrect email or password, please try again');
+      } else {
+        alert('Sever errors');
+      }
+      
+      
     }
   }
 };
