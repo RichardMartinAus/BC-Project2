@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
-
+//move them to user routes
 router.get("/userdash", withAuth, async (req, res) => {
   try {
     // Find the logged in user based on the session ID
@@ -54,10 +54,10 @@ router.get("/signup", (req, res) => {
 });
 
 router.get("/booking", (req, res) => {
-  if (req.session.logged_in) {
-    res.redirect("./booking");
-    return;
-  }
+  // if (req.session.logged_in) {
+  //   res.redirect("./booking");
+  //   return;
+  // }
 
   if (!req.session.logged_in) {
     res.redirect("./login");
@@ -66,5 +66,6 @@ router.get("/booking", (req, res) => {
 
   res.render("booking");
 });
+
 
 module.exports = router;

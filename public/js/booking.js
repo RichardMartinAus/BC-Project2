@@ -1,4 +1,5 @@
 const bookingForm = async () => {
+  debugger
   const response = await fetch("/api/booking", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -11,4 +12,4 @@ const bookingForm = async () => {
   }
 };
 
-document.querySelector("#booking-btn").addEventListener("click", bookingForm);
+//document.querySelector("#booking-btn").addEventListener("click", bookingForm);
