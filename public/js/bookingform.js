@@ -4,7 +4,7 @@ const bookingBtn12 = document.getElementById("#btn-12");
 const bookingBtn14 = document.getElementById("#btn-14");
 const bookingBtn18 = document.getElementById("#btn-18");
 const bookingBtn20 = document.getElementById("#btn-20");
-
+debugger
 let timeSelection = function () {
   if (bookingBtn12 == active) {
     return 12;
