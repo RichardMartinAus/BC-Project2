@@ -33,16 +33,16 @@ The application has been developed with help of both front end and back end code
 The following images will depict the functionality of the web applicaton
 
 ### HomePage
-![The homepage displays link to menu page, login page, booking page](./Images/01_mainpage.jpg)
+![The homepage displays link to menu page, login page, booking page](./public/Images/01_mainpage.jpg)
 
 ### MenuPage
-![The menupage displays the dishes that the cafe is offering, the records are being pulled in from a database](./Images/02_menupage.jpg)
+![The menupage displays the dishes that the cafe is offering, the records are being pulled in from a database](./public/Images/02_menupage.jpg)
 
 ###  loginPage
-![The page displays placeholder for the users to put in their username and password to that they can be validated and have access to userdash board](./Images/03_loginpage.jpg)
+![The page displays placeholder for the users to put in their username and password to that they can be validated and have access to userdash board](./public/Images/03_loginpage.jpg)
 
 ###  userdash
-![The page displays user details once the user is logged in](./Images)
+![The page displays user details once the user is logged in](./public/Images)
 
 ###  signupPage
 ![The page offers users to input their credentials and sign up to have a account created, which can be accessed by their login/password](./Images)
