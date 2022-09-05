@@ -9,8 +9,9 @@ The project has been developed for seaside cafe to enhance their online presence
 5. [Questions](#Questions)
 
 ## Description 
-This web-application built for seaside Cafe provides a easy point of contact for clients before visiting the cafe as well as knowing what is being served by seaside cafe. The users are able to view which all dishes are being offered by the cafe. They are also able to reserve a table at the cafe for the current or/and future dates. It also offers personalised page to the user, where users can log in ***************************************************
-
+This web-application built for seaside Cafe provides a easy point of contact for clients before visiting the cafe as well as knowing what is being served at seaside cafe. The users are able to view what all dishes are being offered by the cafe and the prices. 
+They are also able to reserve a table at the cafe for the current or/and future dates. 
+It also offers personalised page to the user, where users can log in by creating their account on the website.
 
 ## Get Started
 you will need to clone repository from https://github.com/RichardMartinAus/Seaside-Cafe.git
@@ -41,25 +42,27 @@ The following images will depict the functionality of the web applicaton
 ###  loginPage
 ![The page displays placeholder for the users to put in their username and password to that they can be validated and have access to userdash board](./public/images/03_loginpage.jpg)
 
-###  userdash
-![The page displays user details once the user is logged in](./public/Images)
-
 ###  signupPage
-![The page offers users to input their credentials and sign up to have a account created, which can be accessed by their login/password](./Images)
+![The page offers users to input their credentials and sign up to have a account created, which can be accessed by their login/password](./public/images/signup.jpg)
+
+###  userdash
+![The page displays user details once the user is logged in](./public/images/05currentBooking.jpg)
+
+###  createBookingPage
+![The page offers users to reserve a table at the restrauant by creating a booking ](./public/images/04_bookingpage.jpg)
 
 
 ### Application  
-The application has been hoisted on cloud services using platform called Heroku. The link to the application is : https://seaside-cafe.herokuapp.com/
+The application has been hoisted on cloud by using a  cloud service platform called Heroku. The link to the application is : https://seaside-cafe.herokuapp.com/
 
 ## Collaborators
 The application is a collaborative efforts of the below developers
-Richard Martin 
-Ning
-Zixin Ye
+Richard Martin,  
+Ning , 
+Zixin Ye and 
 Anuraag Saini
 
 ## Question / inquireies / suggestions 
-For questions can be directed to me at the below addresses :
-github Username: 
-github Profile : 
-email : 
+For questions can be directed to us at the below addresses :
+github Username: Richard_Martin
+email :  aaaaaaaa.aaaaaaa@abcd.com.au
